@@ -11,3 +11,28 @@
     --font-base: "Bai Jamjuree";
 }
 
+body{
+    background-color: var(--color-base2);
+    color: var(--color-body);
+    font-family: var(--font-base) sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--color-heading);
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.5s ease;
+    color: var(--color-body);
+
+}
+
+a:hover{
+    color: var(--color-brand);
+}
+
+img{
+    width: 100%;
+}
