@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assests/css/aos.css">
     <link rel="stylesheet" href="./assests/js/bootstrap.bundle.min.js">
     <link rel="stylesheet" href="./assests/css/line-awesome.min.css">
     <link rel="stylesheet" href="./assests/css/style.css">
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- nvabar  -->
     <nav class="navbar navbar-expand-lg navbar-light navbar-dark fixed-top">
         <div class="container flex-lg-column">
@@ -47,51 +48,95 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
                     </li>
-                
+
                 </ul>
             </div>
         </div>
     </nav>
     <!-- nvabar  -->
 
-<!-- Content Wrapper -->
-<div id="content-wrapper">
-    <!-- home -->
-   <div id="home" class="full-height px-lg-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8">
-                <h1 class="display-4 fw-bold">I'M <span class="text-brand">Full Stack Developer</span> Innovating with Code, Design, and User Experience.</h1>
-                <p class="lead mt-2 mb-4">I am Shreyas Paraspatki,Empowering Businesses with Expertise in Full Stack Development for Dynamic, Scalable, and User-Centric Solutions.</p>
-                <a href="#work" class="btn btn-brand me-3">Explore my work</a>
-                <a href="#" class="link-custom"> Call: +91 7620149060</a>
-            </div>
-        </div>
-    </div>
-   </div>
-    <!-- home -->
-<!-- Services -->
-   <section id="services" class="full-height px-lg-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <h1 class="text-brand">Services</h1>
-                    <p> Services That I Provide You </p>
+    <!-- Content Wrapper -->
+    <div id="content-wrapper">
+        <!-- home -->
+        <div id="home" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="display-4 fw-bold" data-aos="fade-up">I'M <span class="text-brand">Full Stack
+                                Developer</span> Innovating with Code, Design, and User Experience.</h1>
+                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am Shreyas
+                            Paraspatki,Empowering Businesses with Expertise in Full Stack Development for Dynamic,
+                            Scalable, and User-Centric Solutions.</p>
+                        <div data-aos="fade-up" data-aos-delay="600">
+                            <a href="#work" class="btn btn-brand me-3">Explore my work</a>
+                            <a href="#" class="link-custom"> Call: +91 7620149060</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-   </section>
+        <!-- home -->
+        <!-- Services -->
+        <section id="services" class="full-height px-lg-5">
+            <div class="container">
 
-<!-- Services -->
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h1 class="text-brand">Services</h1>
+                        <h1 class="fw-bold"> Services That I Provide You </h1>
+                    </div>
+                </div>
 
-</div>
-<!-- Content Wrapper -->
+                <div class="row">
+                    <div class="col-md-4"  data-aos="fade-up">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect" style="border-radius: 10px;">
+                            <div class="iconbox">
+                                <i class="las la-code"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2 fw-bold">Front-end Development</h5>
+                            <p>Front-end developer crafts intuitive user interfaces, responsive web design, interactive
+                                elements, and optimized performance for seamless digital experiences</p>
+                            <a href="#" class="link-custom">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4"  data-aos="fade-up" data-aos-delay="400">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect" style="border-radius: 10px;">
+                            <div class="iconbox">
+                                <i class="las la-laptop-code"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2 fw-bold">Full stack Development</h5>
+                            <p> Web development, database design, server management, API integration, UI/UX design,
+                                troubleshooting, and optimization for seamless digital experiences</p>
+                            <a href="#" class="link-custom">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4"  data-aos="fade-up" data-aos-delay="600">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect" style="border-radius: 10px;">
+                            <div class="iconbox">
+                                <i class="lab la-salesforce"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2 fw-bold">Salesforce</h5>
+                            <p>automation, integration, data management, app development, and optimization for
+                                streamlined business processes and enhanced customer experiences.</p>
+                            <a href="#" class="link-custom">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+
+    </div>
+    <!-- Content Wrapper -->
 
 
     <script src="./assests/js/aos.js"></script>
     <script src="./assests/js/bootstrap.bundle.min.js"></script>
     <script src="./assests/js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
