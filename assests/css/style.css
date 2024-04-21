@@ -46,7 +46,7 @@ img {
     color: var(--color-brand2);
 }
 
-.full-width {
+.full-height {
     min-height: 100vh;
     height: 100%;
     display: flex;
